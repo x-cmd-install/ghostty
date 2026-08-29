@@ -1,0 +1,75 @@
+about:
+  description: 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
+  license: MIT
+  homepage: https://ghostty.org
+  head: 4540d49
+  archived: false
+  latestVersion: tip
+  collectedAt: 2026-08-29T06:58:31Z
+timeline:
+  created: 2022-03-29
+  lastCommit: 2026-08-28
+  lastRelease: 2022-11-17
+popularity:
+  star: 60400
+  watcher: 215
+  fork: 3361
+  release: 1
+  contributor: 621
+  pullRequest: 843
+  issue: 2257
+language:
+  Zig: 12306425
+  Swift: 1435758
+  C: 685915
+  C++: 351511
+  Shell: 67066
+  HTML: 66361
+  Nix: 47939
+  Python: 40709
+  Blueprint: 35036
+  GLSL: 31433
+  Metal: 25257
+  Kaitai Struct: 25167
+  CMake: 16825
+  Nushell: 13474
+  CSS: 6089
+  JavaScript: 4971
+  Elvish: 4129
+  Objective-C: 3523
+  Dockerfile: 2433
+  Makefile: 731
+totalLine: 15170752
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 0
+    mergedPR: 294
+    openPR: 28
+    closedIssue: 15
+    openIssue: 2
+    commit: 810
+  last90d:
+    since: 2026-05-31
+    release: 0
+    mergedPR: 471
+    openPR: 42
+    closedIssue: 57
+    openIssue: 9
+    commit: 1330
+  last180d:
+    since: 2026-03-02
+    release: 0
+    mergedPR: 982
+    openPR: 81
+    closedIssue: 214
+    openIssue: 31
+    commit: 2777
+  last360d:
+    since: 2025-09-03
+    release: 0
+    mergedPR: 1885
+    openPR: 103
+    closedIssue: 393
+    openIssue: 53
+    commit: 5793
