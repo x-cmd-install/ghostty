@@ -7,15 +7,15 @@ about:
   head: 492300c
   archived: false
   latestVersion: tip
-  collectedAt: 2026-09-04T20:16:25Z
+  collectedAt: 2026-09-04T20:25:29Z
 timeline:
   created: 2022-03-29
   lastCommit: 2026-09-04
   lastRelease: 2022-11-17
 popularity:
-  star: 60710
+  star: 60711
   watcher: 219
-  fork: 3389
+  fork: 3388
   release: 1
   contributor: 612
   pullRequest: 5463
@@ -100,7 +100,7 @@ total:
   commit: 17718
 ---
 path: /home/runner/.x-repo/github.com/ghostty-org/ghostty
-collectedAt: 2026-09-04T20:16:30Z
+collectedAt: 2026-09-04T20:25:35Z
 loc:
   Zig:
     code: 253866
