@@ -2,24 +2,24 @@ about:
   description: "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration."
   license: MIT
   homepage: https://ghostty.org
-  head: 82938b6
+  head: 82232ec
   archived: false
   latestVersion: "tip"
-  collectedAt: 2026-09-07T06:17:38Z
+  collectedAt: 2026-09-07T18:26:48Z
 timeline:
   created: 2022-03-29
   lastCommit: 2026-09-07
   lastRelease: 2022-11-17
 popularity:
-  star: 60793
+  star: 60817
   watcher: 221
-  fork: 3396
+  fork: 3400
   release: 1
   contributor: 612
-  pullRequest: 5468
+  pullRequest: 5471
   issue: 2261
 language:
-  Zig: 12415426
+  Zig: 12418019
   Swift: 1437235
   C: 1076478
   C++: 734766
@@ -39,71 +39,71 @@ language:
   Objective-C: 3523
   Dockerfile: 2433
   Makefile: 731
-totalBytes: 16062577
+totalBytes: 16065170
 recent:
   last30d:
     since: 2026-08-08
     release: 0
-    mergedPR: 234
-    openPR: 30
+    mergedPR: 238
+    openPR: 29
     closedIssue: 10
     openIssue: 4
-    commit: 544
+    commit: 552
   last60d:
     since: 2026-07-09
     release: 0
-    mergedPR: 420
-    openPR: 40
+    mergedPR: 424
+    openPR: 39
     closedIssue: 31
     openIssue: 6
-    commit: 1134
+    commit: 1142
   last90d:
     since: 2026-06-09
     release: 0
-    mergedPR: 499
-    openPR: 46
+    mergedPR: 503
+    openPR: 45
     closedIssue: 52
     openIssue: 11
-    commit: 1403
+    commit: 1411
   last180d:
     since: 2026-03-11
     release: 0
-    mergedPR: 940
-    openPR: 77
+    mergedPR: 944
+    openPR: 76
     closedIssue: 192
     openIssue: 31
-    commit: 2550
+    commit: 2558
   last360d:
     since: 2025-09-12
     release: 0
-    mergedPR: 1891
-    openPR: 108
+    mergedPR: 1895
+    openPR: 107
     closedIssue: 389
     openIssue: 54
-    commit: 5766
+    commit: 5774
   last720d:
     since: 2024-09-17
     release: 0
-    mergedPR: 3339
-    openPR: 109
+    mergedPR: 3343
+    openPR: 108
     closedIssue: 1244
     openIssue: 119
-    commit: 10397
+    commit: 10405
 total:
   release: 1
-  mergedPR: 4614
-  openPR: 109
+  mergedPR: 4618
+  openPR: 108
   closedIssue: 2124
   openIssue: 137
-  commit: 17725
+  commit: 17733
 ---
 path: /home/runner/.x-repo/github.com/ghostty-org/ghostty
-collectedAt: 2026-09-07T06:17:51Z
+collectedAt: 2026-09-07T18:27:02Z
 loc:
   Zig:
-    code: 253884
-    comments: 55802
-    blanks: 45234
+    code: 253913
+    comments: 55824
+    blanks: 45240
     files: 789
   CHeader:
     code: 44226
@@ -241,15 +241,15 @@ loc:
     blanks: 948
     files: 244
 total:
-  code: 385140
-  comments: 99547
-  blanks: 63951
+  code: 385169
+  comments: 99569
+  blanks: 63957
   files: 1571
 ---
 
 ---
 eget:
-  collectedAt: 2026-09-07T06:17:54+00:00
+  collectedAt: 2026-09-07T18:27:04+00:00
   platform:
     darwin/arm64:
       name:  null
