@@ -7,7 +7,7 @@
 - **Latest release**: `tip` (n/a)
 - **Last commit**: 2026-09-08
 - **License**: MIT
-- **Stars**: 60841 · **Forks**: 3403 · **Open issues**: 2261 · **Contributors**: 612
+- **Stars**: 60863 · **Forks**: 3405 · **Open issues**: 2262 · **Contributors**: 613
 
 ## Installation
 
@@ -19,6 +19,6 @@ See <https://x-cmd.com/install/ghostty> for details.
 
 ## Data
 
-This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260908.yml`. Merged card+release view: `data/latest.report.yml`.
+This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-08T12:36:23Z._
+_Last regenerated: 2026-09-09T06:28:39Z._
