@@ -7,7 +7,7 @@ about:
   latestVersion: "tip"
   latestRelease: ""
   latestPrerelease: "tip"
-  collectedAt: 2026-09-10T21:49:36Z
+  collectedAt: 2026-09-10T22:04:34Z
 timeline:
   created: 2022-03-29
   lastCommit: 2026-09-10
@@ -102,7 +102,7 @@ total:
   commit: 17759
 ---
 path: /home/runner/.x-repo/github.com/ghostty-org/ghostty
-collectedAt: 2026-09-10T21:49:46Z
+collectedAt: 2026-09-10T22:04:45Z
 loc:
   Zig:
     code: 255255
