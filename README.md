@@ -37,7 +37,7 @@ Total: **385,241** lines of code across **1080** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 60,933 · **Forks**: 3,420 · **Open issues**: 2,263 · **Contributors**: 614
+- **Stars**: 60,938 · **Forks**: 3,422 · **Open issues**: 2,263 · **Contributors**: 614
 
 ## Totals (cumulative)
 
@@ -47,12 +47,12 @@ Total: **385,241** lines of code across **1080** files in the top 5 languages.
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 0 | 223 | 31 | 6 | 6 | 579 |
-| last60d | 2026-07-12 | 0 | 422 | 41 | 28 | 8 | 1171 |
-| 90d | 2026-06-12 | 0 | 510 | 49 | 50 | 12 | 1440 |
-| last180d | 2026-03-14 | 0 | 939 | 78 | 182 | 29 | 2587 |
-| 360d | 2025-09-15 | 0 | 1892 | 111 | 387 | 56 | 5803 |
-| last720d | 2024-09-20 | 0 | 3340 | 112 | 1237 | 121 | 10391 |
+| 30d | 2026-08-12 | 0 | 213 | 30 | 6 | 5 | 579 |
+| last60d | 2026-07-13 | 0 | 416 | 41 | 28 | 8 | 1171 |
+| 90d | 2026-06-13 | 0 | 509 | 49 | 50 | 12 | 1440 |
+| last180d | 2026-03-15 | 0 | 930 | 77 | 181 | 29 | 2587 |
+| 360d | 2025-09-16 | 0 | 1885 | 111 | 380 | 55 | 5803 |
+| last720d | 2024-09-21 | 0 | 3337 | 112 | 1236 | 121 | 10374 |
 
 ## Distribution status
 
@@ -76,4 +76,4 @@ Install metadata for ghostty lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T22:04:52Z._
+_Snapshot: `data/card/260911.yml` · 2026-09-11T06:24:04Z._
