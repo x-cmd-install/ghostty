@@ -33,26 +33,26 @@ Total: **385,258** lines of code across **1081** files in the top 5 languages.
 ## Release
 
 - **Latest**: `tip`
-- **Last commit**: 2026-09-12
+- **Last commit**: 2026-09-13
 
 ## Popularity
 
-- **Stars**: 60,981 · **Forks**: 3,428 · **Open issues**: 2,263 · **Contributors**: 614
+- **Stars**: 61,015 · **Forks**: 3,433 · **Open issues**: 2,263 · **Contributors**: 614
 
 ## Totals (cumulative)
 
-- **Releases**: 1 · **Merged PRs**: 4629 · **Open PRs**: 111 · **Closed issues**: 2124 · **Open issues**: 139 · **Commits**: 17761
+- **Releases**: 1 · **Merged PRs**: 4631 · **Open PRs**: 113 · **Closed issues**: 2124 · **Open issues**: 139 · **Commits**: 17764
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-13 | 0 | 197 | 26 | 3 | 5 | 581 |
-| last60d | 2026-07-14 | 0 | 416 | 38 | 27 | 8 | 1173 |
-| 90d | 2026-06-14 | 0 | 507 | 48 | 48 | 11 | 1442 |
-| last180d | 2026-03-16 | 0 | 915 | 76 | 177 | 29 | 2589 |
-| 360d | 2025-09-17 | 0 | 1883 | 110 | 376 | 55 | 5805 |
-| last720d | 2024-09-22 | 0 | 3335 | 111 | 1234 | 121 | 10359 |
+| 30d | 2026-08-14 | 0 | 184 | 28 | 3 | 5 | 328 |
+| last60d | 2026-07-15 | 0 | 416 | 40 | 27 | 8 | 1130 |
+| 90d | 2026-06-15 | 0 | 508 | 50 | 48 | 11 | 1418 |
+| last180d | 2026-03-17 | 0 | 907 | 77 | 175 | 29 | 2379 |
+| 360d | 2025-09-18 | 0 | 1871 | 112 | 375 | 55 | 5605 |
+| last720d | 2024-09-23 | 0 | 3332 | 113 | 1233 | 121 | 10344 |
 
 ## Distribution status
 
@@ -76,4 +76,4 @@ Install metadata for ghostty lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260912.yml` · 2026-09-12T06:09:54Z._
+_Snapshot: `data/card/260913.yml` · 2026-09-13T06:30:20Z._
