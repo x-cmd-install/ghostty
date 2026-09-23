@@ -4,7 +4,7 @@
 
 👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.
 
-[![x-cmd/install — ghostty Code Quality Monitoring Repo Card](https://repo.x-cmd.io/ghostty.svg?lang=zh)](https://x-cmd.com/install/ghostty)
+[![x-cmd/install — ghostty Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/ghostty.svg?lang=zh)](https://x-cmd.com/install/ghostty)
 
 ## 安装
 
@@ -37,22 +37,22 @@ x install ghostty
 
 ## 流行度
 
-- **Star**: 61,418 · **Fork**: 3,489 · **开放 issue**: 2,266 · **贡献者**: 618
+- **Star**: 61,444 · **Fork**: 3,495 · **开放 issue**: 2,266 · **贡献者**: 618
 
 ## 累计统计
 
-- **发布数**: 1 · **已合并 PR**: 4671 · **开放 PR**: 111 · **已关闭 issue**: 2128 · **开放 issue**: 138 · **提交数**: 17903
+- **发布数**: 1 · **已合并 PR**: 4673 · **开放 PR**: 113 · **已关闭 issue**: 2128 · **开放 issue**: 138 · **提交数**: 17906
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 0 | 138 | 23 | 3 | 6 | 255 |
-| last60d | 2026-07-24 | 0 | 430 | 38 | 21 | 8 | 1177 |
-| 90d | 2026-06-24 | 0 | 534 | 46 | 47 | 11 | 1547 |
-| last180d | 2026-03-26 | 0 | 864 | 70 | 158 | 29 | 2341 |
-| 360d | 2025-09-27 | 0 | 1862 | 109 | 367 | 55 | 5670 |
-| last720d | 2024-10-02 | 0 | 3338 | 111 | 1214 | 121 | 10326 |
+| 30d | 2026-08-24 | 0 | 122 | 25 | 3 | 6 | 259 |
+| last60d | 2026-07-25 | 0 | 430 | 40 | 21 | 8 | 1181 |
+| 90d | 2026-06-25 | 0 | 533 | 48 | 45 | 11 | 1551 |
+| last180d | 2026-03-27 | 0 | 863 | 72 | 152 | 29 | 2345 |
+| 360d | 2025-09-28 | 0 | 1860 | 111 | 366 | 55 | 5674 |
+| last720d | 2024-10-03 | 0 | 3335 | 113 | 1210 | 121 | 10314 |
 
 ## 改进这些数据
 
@@ -63,4 +63,4 @@ ghostty 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:41:56Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:54:54Z._
