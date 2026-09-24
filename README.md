@@ -33,26 +33,26 @@ Total: **386,991** lines of code across **1087** files in the top 5 languages.
 ## Release
 
 - **Latest**: `tip`
-- **Last commit**: 2026-09-22
+- **Last commit**: 2026-09-24
 
 ## Popularity
 
-- **Stars**: 61,444 · **Forks**: 3,495 · **Open issues**: 2,266 · **Contributors**: 618
+- **Stars**: 61,484 · **Forks**: 3,502 · **Open issues**: 2,266 · **Contributors**: 617
 
 ## Totals (cumulative)
 
-- **Releases**: 1 · **Merged PRs**: 4673 · **Open PRs**: 113 · **Closed issues**: 2128 · **Open issues**: 138 · **Commits**: 17906
+- **Releases**: 1 · **Merged PRs**: 4676 · **Open PRs**: 117 · **Closed issues**: 2128 · **Open issues**: 138 · **Commits**: 17909
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 0 | 122 | 25 | 3 | 6 | 259 |
-| last60d | 2026-07-25 | 0 | 430 | 40 | 21 | 8 | 1181 |
-| 90d | 2026-06-25 | 0 | 533 | 48 | 45 | 11 | 1551 |
-| last180d | 2026-03-27 | 0 | 863 | 72 | 152 | 29 | 2345 |
-| 360d | 2025-09-28 | 0 | 1860 | 111 | 366 | 55 | 5674 |
-| last720d | 2024-10-03 | 0 | 3335 | 113 | 1210 | 121 | 10314 |
+| 30d | 2026-08-25 | 0 | 111 | 28 | 3 | 6 | 265 |
+| last60d | 2026-07-26 | 0 | 424 | 44 | 21 | 8 | 1187 |
+| 90d | 2026-06-26 | 0 | 534 | 52 | 45 | 11 | 1557 |
+| last180d | 2026-03-28 | 0 | 855 | 76 | 144 | 27 | 2351 |
+| 360d | 2025-09-29 | 0 | 1858 | 115 | 364 | 55 | 5679 |
+| last720d | 2024-10-04 | 0 | 3336 | 117 | 1207 | 121 | 10308 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for ghostty lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T06:54:53Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T06:07:55Z._
