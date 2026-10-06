@@ -33,26 +33,26 @@ Total: **391,797** lines of code across **1098** files in the top 5 languages.
 ## Release
 
 - **Latest**: `tip`
-- **Last commit**: 2026-10-05
+- **Last commit**: 2026-10-06
 
 ## Popularity
 
-- **Stars**: 61,841 · **Forks**: 3,567 · **Open issues**: 2,272 · **Contributors**: 626
+- **Stars**: 61,878 · **Forks**: 3,575 · **Open issues**: 2,272 · **Contributors**: 626
 
 ## Totals (cumulative)
 
-- **Releases**: 1 · **Merged PRs**: 4750 · **Open PRs**: 120 · **Closed issues**: 2137 · **Open issues**: 135 · **Commits**: 18079
+- **Releases**: 1 · **Merged PRs**: 4752 · **Open PRs**: 123 · **Closed issues**: 2137 · **Open issues**: 135 · **Commits**: 18080
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-05 | 0 | 132 | 26 | 7 | 4 | 235 |
-| last60d | 2026-08-06 | 0 | 380 | 45 | 19 | 6 | 955 |
-| 90d | 2026-07-07 | 0 | 564 | 54 | 42 | 8 | 1494 |
-| last180d | 2026-04-08 | 0 | 863 | 71 | 129 | 16 | 2272 |
-| 360d | 2025-10-10 | 0 | 1872 | 118 | 367 | 52 | 5593 |
-| last720d | 2024-10-15 | 0 | 3378 | 120 | 1194 | 118 | 10374 |
+| 30d | 2026-09-06 | 0 | 133 | 29 | 7 | 4 | 237 |
+| last60d | 2026-08-07 | 0 | 377 | 48 | 19 | 6 | 957 |
+| 90d | 2026-07-08 | 0 | 562 | 57 | 41 | 8 | 1496 |
+| last180d | 2026-04-09 | 0 | 863 | 74 | 128 | 16 | 2274 |
+| 360d | 2025-10-11 | 0 | 1868 | 120 | 366 | 52 | 5595 |
+| last720d | 2024-10-16 | 0 | 3379 | 123 | 1193 | 118 | 10358 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for ghostty lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261005.yml` · 2026-10-05T07:05:55Z._
+_Snapshot: `data/card/261006.yml` · 2026-10-06T07:49:27Z._
