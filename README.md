@@ -14,12 +14,12 @@ x install ghostty
 
 ## Code insight
 
-Total: **391,797** lines of code across **1098** files in the top 5 languages.
+Total: **392,633** lines of code across **1099** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Zig | 261,232 | 57,766 | 46,475 | 808 |
-| CHeader | 44,751 | 17,253 | 4,714 | 73 |
+| Zig | 262,036 | 58,018 | 46,633 | 809 |
+| CHeader | 44,783 | 17,443 | 4,735 | 73 |
 | Cpp | 32,587 | 6,925 | 4,330 | 10 |
 | Swift | 26,790 | 5,679 | 5,556 | 199 |
 | Python | 13,235 | 488 | 398 | 8 |
@@ -33,26 +33,26 @@ Total: **391,797** lines of code across **1098** files in the top 5 languages.
 ## Release
 
 - **Latest**: `tip`
-- **Last commit**: 2026-10-06
+- **Last commit**: 2026-10-07
 
 ## Popularity
 
-- **Stars**: 61,878 · **Forks**: 3,575 · **Open issues**: 2,272 · **Contributors**: 626
+- **Stars**: 61,913 · **Forks**: 3,592 · **Open issues**: 2,273 · **Contributors**: 627
 
 ## Totals (cumulative)
 
-- **Releases**: 1 · **Merged PRs**: 4752 · **Open PRs**: 123 · **Closed issues**: 2137 · **Open issues**: 135 · **Commits**: 18080
+- **Releases**: 1 · **Merged PRs**: 4758 · **Open PRs**: 126 · **Closed issues**: 2137 · **Open issues**: 136 · **Commits**: 18090
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 0 | 133 | 29 | 7 | 4 | 237 |
-| last60d | 2026-08-07 | 0 | 377 | 48 | 19 | 6 | 957 |
-| 90d | 2026-07-08 | 0 | 562 | 57 | 41 | 8 | 1496 |
-| last180d | 2026-04-09 | 0 | 863 | 74 | 128 | 16 | 2274 |
-| 360d | 2025-10-11 | 0 | 1868 | 120 | 366 | 52 | 5595 |
-| last720d | 2024-10-16 | 0 | 3379 | 123 | 1193 | 118 | 10358 |
+| 30d | 2026-09-07 | 0 | 134 | 31 | 7 | 5 | 249 |
+| last60d | 2026-08-08 | 0 | 378 | 51 | 19 | 7 | 969 |
+| 90d | 2026-07-09 | 0 | 564 | 59 | 40 | 9 | 1508 |
+| last180d | 2026-04-10 | 0 | 857 | 76 | 127 | 17 | 2286 |
+| 360d | 2025-10-12 | 0 | 1864 | 123 | 366 | 53 | 5607 |
+| last720d | 2024-10-17 | 0 | 3384 | 126 | 1193 | 119 | 10366 |
 
 ## Improve this data
 
@@ -63,4 +63,4 @@ Install metadata for ghostty lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T07:49:27Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T07:18:52Z._
