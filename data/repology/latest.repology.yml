@@ -1,43 +1,111 @@
-- repo: gentoo
-  srcname: x11-terms/ghostty-terminfo
-  visiblename: x11-terms/ghostty-terminfo
-  version: 1.2.3
+- repo: chromebrew
+  srcname: ghostty
+  visiblename: ghostty
+  version: 1.1.3
   origversion: null
-  status: legacy
-  summary: Terminfo for ghostty, a fast, feature-rich, and cross-platform terminal emulator
-  maintainers:
-    - sin-ack@protonmail.com
-    - proxy-maint@gentoo.org
+  status: outdated
+  summary: Fast, native, feature-rich terminal emulator pushing modern features
   licenses:
     - MIT
-  categories:
-    - x11-terms
-- repo: arch
+- repo: homebrew_casks
+  srcname: ghostty
+  visiblename: Ghostty
+  version: 1.4.0
+  origversion: null
+  status: newest
+  summary: Terminal emulator that uses platform-native UI and GPU acceleration
+- repo: artix
+  subrepo: galaxy
+  srcname: ghostty
+  binname: ghostty-shell-integration
+  visiblename: ghostty-shell-integration
+  version: 1.3.1
+  origversion: 1.3.1-2
+  status: outdated
+  summary: Shell integration scripts for ghostty
+  licenses:
+    - MIT
+- repo: artix
+  subrepo: galaxy
+  srcname: ghostty
+  binname: ghostty-terminfo
+  visiblename: ghostty-terminfo
+  version: 1.3.1
+  origversion: 1.3.1-2
+  status: outdated
+  summary: Terminfo for ghostty
+  licenses:
+    - MIT
+- repo: artix
+  subrepo: galaxy
+  srcname: ghostty
+  binname: ghostty
+  visiblename: ghostty
+  version: 1.3.1
+  origversion: 1.3.1-2
+  status: outdated
+  summary: Fast, native, feature-rich terminal emulator pushing modern features
+  licenses:
+    - MIT
+- repo: artix
+  subrepo: galaxy
+  srcname: ghostty
+  binname: ghostty-nautilus
+  visiblename: ghostty-nautilus
+  version: 1.3.1
+  origversion: 1.3.1-2
+  status: outdated
+  summary: Open in Ghostty for GNOME Files
+  licenses:
+    - GPL-2.0-or-later
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: ghostty
+  binname: ghostty-nautilus
+  visiblename: ghostty-nautilus
+  version: 1.3.1
+  origversion: 1.3.1-2
+  status: outdated
+  summary: Open in Ghostty for GNOME Files
+  licenses:
+    - GPL-2.0-or-later
+- repo: manjaro_unstable
   subrepo: extra
   srcname: ghostty
   binname: ghostty-terminfo
   visiblename: ghostty-terminfo
   version: 1.3.1
   origversion: 1.3.1-2
-  status: newest
+  status: outdated
   summary: Terminfo for ghostty
   licenses:
     - MIT
-- repo: manjaro_stable
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: ghostty
+  binname: ghostty
+  visiblename: ghostty
+  version: 1.3.1
+  origversion: 1.3.1-2
+  status: outdated
+  summary: Fast, native, feature-rich terminal emulator pushing modern features
+  licenses:
+    - MIT
+- repo: manjaro_unstable
   subrepo: extra
   srcname: ghostty
   binname: ghostty-shell-integration
   visiblename: ghostty-shell-integration
   version: 1.3.1
   origversion: 1.3.1-2
-  status: newest
+  status: outdated
   summary: Shell integration scripts for ghostty
   licenses:
     - MIT
 - repo: aerynos
   srcname: ghostty
   visiblename: ghostty
-  version: 1.3.1
+  version: 1.4.0
   origversion: null
   status: newest
   summary: Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration
@@ -50,7 +118,7 @@
   visiblename: ghostty
   version: 1.3.1_git20260908
   origversion: 1.3.1_git20260908-r2
-  status: ignored
+  status: outdated
   summary: Fast, feature-rich, and cross-platform terminal emulator
   maintainers:
     - lauren@selfisekai.rocks
@@ -63,7 +131,7 @@
   visiblename: ghostty-bash-completion
   version: 1.3.1_git20260908
   origversion: 1.3.1_git20260908-r2
-  status: ignored
+  status: outdated
   summary: Bash completions for ghostty
   maintainers:
     - lauren@selfisekai.rocks
@@ -76,10 +144,22 @@
   visiblename: ghostty-dev
   version: 1.3.1_git20260908
   origversion: 1.3.1_git20260908-r2
-  status: ignored
+  status: outdated
   summary: Fast, feature-rich, and cross-platform terminal emulator (development files)
   maintainers:
     - lauren@selfisekai.rocks
+  licenses:
+    - MIT
+- repo: aur
+  srcname: ghostty-git
+  binname: ghostty-shell-integration-git
+  visiblename: ghostty-shell-integration-git
+  version: 1.3.1.r1209.gd560c64
+  origversion: 1.3.1.r1209.gd560c64-2
+  status: rolling
+  summary: Shell integration scripts for ghostty
+  maintainers:
+    - alerque@aur
   licenses:
     - MIT
 - repo: alpine_edge
@@ -89,7 +169,7 @@
   visiblename: ghostty-doc
   version: 1.3.1_git20260908
   origversion: 1.3.1_git20260908-r2
-  status: ignored
+  status: outdated
   summary: Fast, feature-rich, and cross-platform terminal emulator (documentation)
   maintainers:
     - lauren@selfisekai.rocks
@@ -102,7 +182,7 @@
   visiblename: ghostty-fish-completion
   version: 1.3.1_git20260908
   origversion: 1.3.1_git20260908-r2
-  status: ignored
+  status: outdated
   summary: Fish completions for ghostty
   maintainers:
     - lauren@selfisekai.rocks
@@ -115,7 +195,7 @@
   visiblename: ghostty-libs
   version: 1.3.1_git20260908
   origversion: 1.3.1_git20260908-r2
-  status: ignored
+  status: outdated
   summary: Fast, feature-rich, and cross-platform terminal emulator (libraries)
   maintainers:
     - lauren@selfisekai.rocks
@@ -128,7 +208,7 @@
   visiblename: ghostty-libs-static
   version: 1.3.1_git20260908
   origversion: 1.3.1_git20260908-r2
-  status: ignored
+  status: outdated
   summary: Fast, feature-rich, and cross-platform terminal emulator (static library)
   maintainers:
     - lauren@selfisekai.rocks
@@ -141,7 +221,7 @@
   visiblename: ghostty-zsh-completion
   version: 1.3.1_git20260908
   origversion: 1.3.1_git20260908-r2
-  status: ignored
+  status: outdated
   summary: Zsh completions for ghostty
   maintainers:
     - lauren@selfisekai.rocks
@@ -158,7 +238,7 @@
   visiblename: ghostty
   version: 1.3.1
   origversion: 1.3.1-alt3
-  status: newest
+  status: outdated
   summary: Fast, feature-rich and cross-platform terminal emulator
   maintainers:
     - sbolshakov@altlinux.org
@@ -173,19 +253,19 @@
   visiblename: ghostty-shell-integration
   version: 1.3.1
   origversion: 1.3.1-2
-  status: newest
+  status: outdated
   summary: Shell integration scripts for ghostty
   licenses:
     - MIT
 - repo: arch
   subrepo: extra
   srcname: ghostty
-  binname: ghostty
-  visiblename: ghostty
+  binname: ghostty-terminfo
+  visiblename: ghostty-terminfo
   version: 1.3.1
   origversion: 1.3.1-2
-  status: newest
-  summary: Fast, native, feature-rich terminal emulator pushing modern features
+  status: outdated
+  summary: Terminfo for ghostty
   licenses:
     - MIT
 - repo: arch
@@ -195,10 +275,21 @@
   visiblename: ghostty-nautilus
   version: 1.3.1
   origversion: 1.3.1-2
-  status: newest
+  status: outdated
   summary: Open in Ghostty for GNOME Files
   licenses:
     - GPL-2.0-or-later
+- repo: arch
+  subrepo: extra
+  srcname: ghostty
+  binname: ghostty
+  visiblename: ghostty
+  version: 1.3.1
+  origversion: 1.3.1-2
+  status: outdated
+  summary: Fast, native, feature-rich terminal emulator pushing modern features
+  licenses:
+    - MIT
 - repo: aur
   srcname: ghostty-git
   binname: ghostty-git
@@ -211,18 +302,20 @@
     - alerque@aur
   licenses:
     - MIT
-- repo: aur
-  srcname: ghostty-git
-  binname: ghostty-shell-integration-git
-  visiblename: ghostty-shell-integration-git
-  version: 1.3.1.r1209.gd560c64
-  origversion: 1.3.1.r1209.gd560c64-2
-  status: rolling
-  summary: Shell integration scripts for ghostty
+- repo: gentoo
+  srcname: x11-terms/ghostty-terminfo
+  visiblename: x11-terms/ghostty-terminfo
+  version: 1.3.1
+  origversion: null
+  status: outdated
+  summary: Terminfo for ghostty, a fast, feature-rich, and cross-platform terminal emulator
   maintainers:
-    - alerque@aur
+    - sin-ack@protonmail.com
+    - proxy-maint@gentoo.org
   licenses:
     - MIT
+  categories:
+    - x11-terms
 - repo: aur
   srcname: ghostty-git
   binname: ghostty-terminfo-git
@@ -247,59 +340,6 @@
     - alerque@aur
   licenses:
     - GPL-2.0-or-later
-- repo: artix
-  subrepo: galaxy
-  srcname: ghostty
-  binname: ghostty-nautilus
-  visiblename: ghostty-nautilus
-  version: 1.3.1
-  origversion: 1.3.1-2
-  status: newest
-  summary: Open in Ghostty for GNOME Files
-  licenses:
-    - GPL-2.0-or-later
-- repo: artix
-  subrepo: galaxy
-  srcname: ghostty
-  binname: ghostty-terminfo
-  visiblename: ghostty-terminfo
-  version: 1.3.1
-  origversion: 1.3.1-2
-  status: newest
-  summary: Terminfo for ghostty
-  licenses:
-    - MIT
-- repo: artix
-  subrepo: galaxy
-  srcname: ghostty
-  binname: ghostty
-  visiblename: ghostty
-  version: 1.3.1
-  origversion: 1.3.1-2
-  status: newest
-  summary: Fast, native, feature-rich terminal emulator pushing modern features
-  licenses:
-    - MIT
-- repo: artix
-  subrepo: galaxy
-  srcname: ghostty
-  binname: ghostty-shell-integration
-  visiblename: ghostty-shell-integration
-  version: 1.3.1
-  origversion: 1.3.1-2
-  status: newest
-  summary: Shell integration scripts for ghostty
-  licenses:
-    - MIT
-- repo: chromebrew
-  srcname: ghostty
-  visiblename: ghostty
-  version: 1.1.3
-  origversion: null
-  status: outdated
-  summary: Fast, native, feature-rich terminal emulator pushing modern features
-  licenses:
-    - MIT
 - repo: deepin_25
   subrepo: main
   srcname: ghostty
@@ -319,7 +359,7 @@
   visiblename: x11/ghostty
   version: 1.3.1
   origversion: 1.3.1_4
-  status: newest
+  status: outdated
   summary: Fast, native and feature-rich terminal emulator with GPU acceleration
   maintainers:
     - slowdive@me.com
@@ -380,6 +420,20 @@
   categories:
     - x11-terms
 - repo: gentoo
+  srcname: x11-terms/ghostty-terminfo
+  visiblename: x11-terms/ghostty-terminfo
+  version: 1.2.3
+  origversion: null
+  status: legacy
+  summary: Terminfo for ghostty, a fast, feature-rich, and cross-platform terminal emulator
+  maintainers:
+    - sin-ack@protonmail.com
+    - proxy-maint@gentoo.org
+  licenses:
+    - MIT
+  categories:
+    - x11-terms
+- repo: gentoo
   srcname: x11-terms/ghostty
   visiblename: x11-terms/ghostty
   version: 1.3.0
@@ -419,7 +473,7 @@
   visiblename: x11-terms/ghostty
   version: 1.3.1
   origversion: null
-  status: newest
+  status: outdated
   summary: Fast, feature-rich, and cross-platform terminal emulator
   maintainers:
     - sin-ack@protonmail.com
@@ -435,27 +489,6 @@
     - Unicode-3.0
   categories:
     - x11-terms
-- repo: gentoo
-  srcname: x11-terms/ghostty-terminfo
-  visiblename: x11-terms/ghostty-terminfo
-  version: 1.3.1
-  origversion: null
-  status: newest
-  summary: Terminfo for ghostty, a fast, feature-rich, and cross-platform terminal emulator
-  maintainers:
-    - sin-ack@protonmail.com
-    - proxy-maint@gentoo.org
-  licenses:
-    - MIT
-  categories:
-    - x11-terms
-- repo: homebrew_casks
-  srcname: ghostty
-  visiblename: Ghostty
-  version: 1.3.1
-  origversion: null
-  status: newest
-  summary: Terminal emulator that uses platform-native UI and GPU acceleration
 - repo: liguros_stable
   srcname: x11-terms/ghostty
   visiblename: x11-terms/ghostty
@@ -524,20 +557,6 @@
     - MIT
   categories:
     - x11-terms
-- repo: solus
-  srcname: ghostty
-  binname: ghostty-devel
-  visiblename: ghostty-devel
-  version: 1.3.1
-  origversion: null
-  status: newest
-  summary: Development files for ghostty
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - MIT
-  categories:
-    - programming.devel
 - repo: liguros_develop
   srcname: x11-terms/ghostty
   visiblename: x11-terms/ghostty
@@ -593,6 +612,19 @@
     - MPL-2.0
   categories:
     - x11-terms
+- repo: nix_stable_25_11
+  srcname: ghostty
+  visiblename: ghostty
+  version: 1.3.1
+  origversion: null
+  status: outdated
+  summary: Fast, native, feature-rich terminal emulator pushing modern features
+  maintainers:
+    - jeff@ocjtech.us
+    - hi@pluie.me
+    - getchoo@tuta.io
+  licenses:
+    - MIT
 - repo: liguros_develop
   srcname: x11-terms/ghostty-terminfo
   visiblename: x11-terms/ghostty-terminfo
@@ -646,7 +678,7 @@
   visiblename: x11-terms/ghostty
   version: 1.3.1
   origversion: null
-  status: newest
+  status: outdated
   summary: Fast, feature-rich, and cross-platform terminal emulator
   maintainers:
     - sin-ack@protonmail.com
@@ -662,39 +694,12 @@
     - Unicode-3.0
   categories:
     - x11-terms
-- repo: t2
-  srcname: ghostty
-  visiblename: ghostty
-  version: 1.3.1
-  origversion: null
-  status: newest
-  summary: Modern terminal emulator
-  maintainers:
-    - rene@exactco.de
-  licenses:
-    - MIT
-  categories:
-    - extra/shell
-- repo: terra_41
-  srcname: ghostty
-  binname: ghostty
-  visiblename: ghostty
-  version: 1.2.3
-  origversion: 1.2.3-2.fc41
-  status: outdated
-  summary: A fast, native terminal emulator written in Zig.
-  maintainers:
-    - rockgrub@disroot.org
-  licenses:
-    - MIT AND MPL-2.0 AND OFL-1.1 AND (WTFPL OR CC0-1.0) AND Apache-2.0
-  categories:
-    - Unspecified
 - repo: liguros_develop
   srcname: x11-terms/ghostty-terminfo
   visiblename: x11-terms/ghostty-terminfo
   version: 1.3.1
   origversion: null
-  status: newest
+  status: outdated
   summary: Terminfo for ghostty, a fast, feature-rich, and cross-platform terminal emulator
   maintainers:
     - sin-ack@protonmail.com
@@ -703,17 +708,6 @@
     - MIT
   categories:
     - x11-terms
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: ghostty
-  binname: ghostty-nautilus
-  visiblename: ghostty-nautilus
-  version: 1.3.1
-  origversion: 1.3.1-2
-  status: newest
-  summary: Open in Ghostty for GNOME Files
-  licenses:
-    - GPL-2.0-or-later
 - repo: manjaro_stable
   subrepo: extra
   srcname: ghostty
@@ -721,7 +715,7 @@
   visiblename: ghostty-terminfo
   version: 1.3.1
   origversion: 1.3.1-2
-  status: newest
+  status: outdated
   summary: Terminfo for ghostty
   licenses:
     - MIT
@@ -732,7 +726,73 @@
   visiblename: ghostty
   version: 1.3.1
   origversion: 1.3.1-2
-  status: newest
+  status: outdated
+  summary: Fast, native, feature-rich terminal emulator pushing modern features
+  licenses:
+    - MIT
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: ghostty
+  binname: ghostty-shell-integration
+  visiblename: ghostty-shell-integration
+  version: 1.3.1
+  origversion: 1.3.1-2
+  status: outdated
+  summary: Shell integration scripts for ghostty
+  licenses:
+    - MIT
+- repo: manjaro_stable
+  subrepo: extra
+  srcname: ghostty
+  binname: ghostty-nautilus
+  visiblename: ghostty-nautilus
+  version: 1.3.1
+  origversion: 1.3.1-2
+  status: outdated
+  summary: Open in Ghostty for GNOME Files
+  licenses:
+    - GPL-2.0-or-later
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: ghostty
+  binname: ghostty-shell-integration
+  visiblename: ghostty-shell-integration
+  version: 1.3.1
+  origversion: 1.3.1-2
+  status: outdated
+  summary: Shell integration scripts for ghostty
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: ghostty
+  binname: ghostty-terminfo
+  visiblename: ghostty-terminfo
+  version: 1.3.1
+  origversion: 1.3.1-2
+  status: outdated
+  summary: Terminfo for ghostty
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: ghostty
+  binname: ghostty-nautilus
+  visiblename: ghostty-nautilus
+  version: 1.3.1
+  origversion: 1.3.1-2
+  status: outdated
+  summary: Open in Ghostty for GNOME Files
+  licenses:
+    - GPL-2.0-or-later
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: ghostty
+  binname: ghostty
+  visiblename: ghostty
+  version: 1.3.1
+  origversion: 1.3.1-2
+  status: outdated
   summary: Fast, native, feature-rich terminal emulator pushing modern features
   licenses:
     - MIT
@@ -762,25 +822,12 @@
     - getchoo@tuta.io
   licenses:
     - MIT
-- repo: nix_stable_25_11
-  srcname: ghostty
-  visiblename: ghostty
-  version: 1.3.1
-  origversion: null
-  status: newest
-  summary: Fast, native, feature-rich terminal emulator pushing modern features
-  maintainers:
-    - jeff@ocjtech.us
-    - hi@pluie.me
-    - getchoo@tuta.io
-  licenses:
-    - MIT
 - repo: nix_stable_26_05
   srcname: ghostty
   visiblename: ghostty
   version: 1.3.1
   origversion: null
-  status: newest
+  status: outdated
   summary: Fast, native, feature-rich terminal emulator pushing modern features
   maintainers:
     - jeff@ocjtech.us
@@ -793,7 +840,7 @@
   visiblename: ghostty
   version: 1.3.1
   origversion: null
-  status: newest
+  status: outdated
   summary: Fast, native, feature-rich terminal emulator pushing modern features
   maintainers:
     - jeff@ocjtech.us
@@ -871,7 +918,7 @@
   visiblename: ghostty
   version: 1.3.1
   origversion: 1.3.1-2.2
-  status: newest
+  status: outdated
   summary: Cross-platform terminal emulator
   licenses:
     - MIT AND OFL-1.1
@@ -883,21 +930,10 @@
   visiblename: ghostty-app
   version: 1.3.1
   origversion: 1.3.1-1
-  status: newest
+  status: outdated
   summary: Fast, feature-rich, and cross-platform terminal emulator
   maintainers:
     - jimedrand@disroot.org
-- repo: parabola
-  subrepo: extra
-  srcname: ghostty
-  binname: ghostty-shell-integration
-  visiblename: ghostty-shell-integration
-  version: 1.3.1
-  origversion: 1.3.1-2
-  status: newest
-  summary: Shell integration scripts for ghostty
-  licenses:
-    - MIT
 - repo: parabola
   subrepo: extra
   srcname: ghostty
@@ -905,7 +941,7 @@
   visiblename: ghostty-nautilus
   version: 1.3.1
   origversion: 1.3.1-2
-  status: newest
+  status: outdated
   summary: Open in Ghostty for GNOME Files
   licenses:
     - GPL-2.0-or-later
@@ -916,7 +952,7 @@
   visiblename: ghostty
   version: 1.3.1
   origversion: 1.3.1-2
-  status: newest
+  status: outdated
   summary: Fast, native, feature-rich terminal emulator pushing modern features
   licenses:
     - MIT
@@ -927,8 +963,19 @@
   visiblename: ghostty-terminfo
   version: 1.3.1
   origversion: 1.3.1-2
-  status: newest
+  status: outdated
   summary: Terminfo for ghostty
+  licenses:
+    - MIT
+- repo: parabola
+  subrepo: extra
+  srcname: ghostty
+  binname: ghostty-shell-integration
+  visiblename: ghostty-shell-integration
+  version: 1.3.1
+  origversion: 1.3.1-2
+  status: outdated
+  summary: Shell integration scripts for ghostty
   licenses:
     - MIT
 - repo: solus
@@ -937,7 +984,7 @@
   visiblename: ghostty
   version: 1.3.1
   origversion: null
-  status: newest
+  status: outdated
   summary: Fast, native, feature-rich terminal emulator pushing modern features
   maintainers:
     - jared@jaredcervantes.com
@@ -951,7 +998,7 @@
   visiblename: ghostty-dbginfo
   version: 1.3.1
   origversion: null
-  status: newest
+  status: outdated
   summary: Debug symbols for ghostty
   maintainers:
     - jared@jaredcervantes.com
@@ -959,13 +1006,40 @@
     - MIT
   categories:
     - debug
+- repo: solus
+  srcname: ghostty
+  binname: ghostty-devel
+  visiblename: ghostty-devel
+  version: 1.3.1
+  origversion: null
+  status: outdated
+  summary: Development files for ghostty
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - MIT
+  categories:
+    - programming.devel
+- repo: t2
+  srcname: ghostty
+  visiblename: ghostty
+  version: 1.3.1
+  origversion: null
+  status: outdated
+  summary: Modern terminal emulator
+  maintainers:
+    - rene@exactco.de
+  licenses:
+    - MIT
+  categories:
+    - extra/shell
 - repo: termux
   srcname: ghostty
   binname: ghostty
   visiblename: ghostty
   version: 1.3.1
   origversion: null
-  status: newest
+  status: outdated
   summary: Fast, feature-rich, GPU-accelerated terminal emulator (GTK4 + X11)
   maintainers:
     - gouranga.das.khulna@gmail.com
@@ -1203,6 +1277,20 @@
   summary: Ghostty Zsh completion
   maintainers:
     - rockgrub@protonmail.com
+  licenses:
+    - MIT AND MPL-2.0 AND OFL-1.1 AND (WTFPL OR CC0-1.0) AND Apache-2.0
+  categories:
+    - Unspecified
+- repo: terra_41
+  srcname: ghostty
+  binname: ghostty
+  visiblename: ghostty
+  version: 1.2.3
+  origversion: 1.2.3-2.fc41
+  status: outdated
+  summary: A fast, native terminal emulator written in Zig.
+  maintainers:
+    - rockgrub@disroot.org
   licenses:
     - MIT AND MPL-2.0 AND OFL-1.1 AND (WTFPL OR CC0-1.0) AND Apache-2.0
   categories:
@@ -1507,7 +1595,7 @@
   visiblename: ghostty
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: A fast, native terminal emulator written in Zig.
   maintainers:
     - roachy@fyralabs.com
@@ -1521,7 +1609,7 @@
   visiblename: ghostty
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: A fast, native terminal emulator written in Zig.
   maintainers:
     - roachy@fyralabs.com
@@ -1535,7 +1623,7 @@
   visiblename: ghostty-bash-completion
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Ghostty Bash completion
   maintainers:
     - roachy@fyralabs.com
@@ -1549,7 +1637,7 @@
   visiblename: ghostty-bat-syntax
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Bat syntax for Ghostty
   maintainers:
     - roachy@fyralabs.com
@@ -1563,7 +1651,7 @@
   visiblename: ghostty-debuginfo
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Debug information for package ghostty
   maintainers:
     - roachy@fyralabs.com
@@ -1577,7 +1665,7 @@
   visiblename: ghostty-debuginfo
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Debug information for package ghostty
   maintainers:
     - roachy@fyralabs.com
@@ -1591,7 +1679,7 @@
   visiblename: ghostty-debugsource
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Debug sources for package ghostty
   maintainers:
     - roachy@fyralabs.com
@@ -1605,7 +1693,7 @@
   visiblename: ghostty-debugsource
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Debug sources for package ghostty
   maintainers:
     - roachy@fyralabs.com
@@ -1619,7 +1707,7 @@
   visiblename: ghostty-devel
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Development files for Ghostty.
   maintainers:
     - roachy@fyralabs.com
@@ -1633,7 +1721,7 @@
   visiblename: ghostty-devel
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Development files for Ghostty.
   maintainers:
     - roachy@fyralabs.com
@@ -1647,7 +1735,7 @@
   visiblename: ghostty-fish-completion
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Ghostty Fish completion
   maintainers:
     - roachy@fyralabs.com
@@ -1661,7 +1749,7 @@
   visiblename: ghostty-kio
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: KIO support for Ghostty
   maintainers:
     - roachy@fyralabs.com
@@ -1675,7 +1763,7 @@
   visiblename: ghostty-nautilus
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Nautilus menu support for Ghostty
   maintainers:
     - roachy@fyralabs.com
@@ -1689,7 +1777,7 @@
   visiblename: ghostty-neovim
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Neovim plugins for Ghostty
   maintainers:
     - roachy@fyralabs.com
@@ -1703,7 +1791,7 @@
   visiblename: ghostty-shell-integration
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Ghostty shell integration
   maintainers:
     - roachy@fyralabs.com
@@ -1717,7 +1805,7 @@
   visiblename: ghostty-terminfo
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Ghostty terminfo
   maintainers:
     - roachy@fyralabs.com
@@ -1731,7 +1819,7 @@
   visiblename: ghostty-vim
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Vim plugins for Ghostty
   maintainers:
     - roachy@fyralabs.com
@@ -1745,7 +1833,7 @@
   visiblename: ghostty-zsh-completion
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Ghostty Zsh completion
   maintainers:
     - roachy@fyralabs.com
@@ -1759,7 +1847,7 @@
   visiblename: libghostty-vt
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: The libghostty-vt libraries
   maintainers:
     - roachy@fyralabs.com
@@ -1773,7 +1861,7 @@
   visiblename: libghostty-vt
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: The libghostty-vt libraries
   maintainers:
     - roachy@fyralabs.com
@@ -1787,7 +1875,7 @@
   visiblename: libghostty-vt-debuginfo
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Debug information for package libghostty-vt
   maintainers:
     - roachy@fyralabs.com
@@ -1801,7 +1889,7 @@
   visiblename: libghostty-vt-debuginfo
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Debug information for package libghostty-vt
   maintainers:
     - roachy@fyralabs.com
@@ -1815,7 +1903,7 @@
   visiblename: libghostty-vt-devel
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Development files for libghostty-vt
   maintainers:
     - roachy@fyralabs.com
@@ -1829,7 +1917,7 @@
   visiblename: libghostty-vt-devel
   version: 1.3.1
   origversion: 1.3.1-3.fcrawhide
-  status: newest
+  status: outdated
   summary: Development files for libghostty-vt
   maintainers:
     - roachy@fyralabs.com
@@ -1922,19 +2010,6 @@
   categories:
     - Unspecified
 - repo: ubuntu_26_04
-  subrepo: resolute/universe
-  srcname: ghostty
-  binnames:
-    - ghostty
-  visiblename: ghostty
-  version: 1.3.0~us1
-  origversion: 1.3.0~us1-0ubuntu1
-  status: outdated
-  maintainers:
-    - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/utils
-- repo: ubuntu_26_04
   subrepo: resolute-updates/universe
   srcname: ghostty
   binnames:
@@ -1942,6 +2017,19 @@
   visiblename: ghostty
   version: 1.3.0~us1
   origversion: 1.3.0~us1-0ubuntu1.1
+  status: outdated
+  maintainers:
+    - ubuntu-devel-discuss@lists.ubuntu.com
+  categories:
+    - universe/utils
+- repo: ubuntu_26_04
+  subrepo: resolute/universe
+  srcname: ghostty
+  binnames:
+    - ghostty
+  visiblename: ghostty
+  version: 1.3.0~us1
+  origversion: 1.3.0~us1-0ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -1991,95 +2079,7 @@
   visiblename: Ghostty
   version: 1.3.1
   origversion: null
-  status: newest
+  status: outdated
   summary: terminal emulator
   licenses:
     - MIT License
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: ghostty
-  binname: ghostty
-  visiblename: ghostty
-  version: 1.3.1
-  origversion: 1.3.1-2
-  status: newest
-  summary: Fast, native, feature-rich terminal emulator pushing modern features
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: ghostty
-  binname: ghostty-shell-integration
-  visiblename: ghostty-shell-integration
-  version: 1.3.1
-  origversion: 1.3.1-2
-  status: newest
-  summary: Shell integration scripts for ghostty
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: ghostty
-  binname: ghostty-terminfo
-  visiblename: ghostty-terminfo
-  version: 1.3.1
-  origversion: 1.3.1-2
-  status: newest
-  summary: Terminfo for ghostty
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
-  srcname: ghostty
-  binname: ghostty-nautilus
-  visiblename: ghostty-nautilus
-  version: 1.3.1
-  origversion: 1.3.1-2
-  status: newest
-  summary: Open in Ghostty for GNOME Files
-  licenses:
-    - GPL-2.0-or-later
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: ghostty
-  binname: ghostty-nautilus
-  visiblename: ghostty-nautilus
-  version: 1.3.1
-  origversion: 1.3.1-2
-  status: newest
-  summary: Open in Ghostty for GNOME Files
-  licenses:
-    - GPL-2.0-or-later
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: ghostty
-  binname: ghostty-shell-integration
-  visiblename: ghostty-shell-integration
-  version: 1.3.1
-  origversion: 1.3.1-2
-  status: newest
-  summary: Shell integration scripts for ghostty
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: ghostty
-  binname: ghostty
-  visiblename: ghostty
-  version: 1.3.1
-  origversion: 1.3.1-2
-  status: newest
-  summary: Fast, native, feature-rich terminal emulator pushing modern features
-  licenses:
-    - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: ghostty
-  binname: ghostty-terminfo
-  visiblename: ghostty-terminfo
-  version: 1.3.1
-  origversion: 1.3.1-2
-  status: newest
-  summary: Terminfo for ghostty
-  licenses:
-    - MIT
