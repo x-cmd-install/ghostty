@@ -2,32 +2,32 @@ about:
   description: "👻 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration."
   license: MIT
   homepage: https://ghostty.org
-  head: cf0ab14
+  head: ae0dc1b
   archived: false
   latestVersion: "tip"
   latestRelease: ""
   latestPrerelease: "tip"
-  collectedAt: 2026-10-30T07:14:40Z
+  collectedAt: 2026-10-31T06:58:41Z
 timeline:
   created: 2022-03-29
-  lastCommit: 2026-10-30
+  lastCommit: 2026-10-31
   lastVersion: 2022-11-17
   lastRelease: 
   lastPrerelease: 2022-11-17
 popularity:
-  star: 62991
-  watcher: 210
-  fork: 3782
+  star: 63053
+  watcher: 209
+  fork: 3798
   release: 1
-  contributor: 640
-  pullRequest: 5863
-  issue: 2287
+  contributor: 641
+  pullRequest: 5877
+  issue: 2288
 language:
-  Zig: 13728170
+  Zig: 13731443
   Swift: 1463220
   C: 1213533
   C++: 735048
-  Shell: 76681
+  Shell: 77035
   HTML: 66361
   Python: 55403
   Nix: 50296
@@ -36,78 +36,78 @@ language:
   GLSL: 31588
   Metal: 25257
   CMake: 16825
-  Nushell: 13903
+  Nushell: 13916
   JavaScript: 4971
   CSS: 4719
   Elvish: 4129
   Objective-C: 3523
   Dockerfile: 2433
   Makefile: 731
-totalBytes: 17565122
+totalBytes: 17568762
 recent:
   last30d:
-    since: 2026-09-30
+    since: 2026-10-01
     release: 0
-    mergedPR: 178
-    openPR: 36
+    mergedPR: 176
+    openPR: 37
     closedIssue: 10
-    openIssue: 6
-    commit: 438
+    openIssue: 7
+    commit: 461
   last60d:
-    since: 2026-08-31
+    since: 2026-09-01
     release: 0
-    mergedPR: 317
-    openPR: 47
-    closedIssue: 19
-    openIssue: 10
-    commit: 770
-  last90d:
-    since: 2026-08-01
-    release: 0
-    mergedPR: 632
-    openPR: 60
-    closedIssue: 36
+    mergedPR: 322
+    openPR: 50
+    closedIssue: 18
     openIssue: 11
-    commit: 1651
+    commit: 793
+  last90d:
+    since: 2026-08-02
+    release: 0
+    mergedPR: 635
+    openPR: 63
+    closedIssue: 33
+    openIssue: 12
+    commit: 1674
   last180d:
-    since: 2026-05-03
+    since: 2026-05-04
     release: 0
-    mergedPR: 896
-    openPR: 73
+    mergedPR: 906
+    openPR: 75
     closedIssue: 105
-    openIssue: 17
-    commit: 2457
+    openIssue: 18
+    commit: 2481
   last360d:
-    since: 2025-11-04
+    since: 2025-11-05
     release: 0
-    mergedPR: 1924
-    openPR: 112
-    closedIssue: 361
-    openIssue: 51
-    commit: 5843
+    mergedPR: 1933
+    openPR: 114
+    closedIssue: 360
+    openIssue: 52
+    commit: 5867
   last720d:
-    since: 2024-11-09
+    since: 2024-11-10
     release: 0
-    mergedPR: 3488
-    openPR: 115
+    mergedPR: 3500
+    openPR: 117
     closedIssue: 1127
-    openIssue: 110
+    openIssue: 111
     commit: 10588
 total:
   release: 1
-  mergedPR: 4919
-  openPR: 115
+  mergedPR: 4931
+  openPR: 117
   closedIssue: 2152
-  openIssue: 135
-  commit: 18508
+  openIssue: 136
+  commit: 18528
 ---
 path: /home/runner/.x-repo/github.com/ghostty-org/ghostty
-collectedAt: 2026-10-30T07:15:49Z
+collectedAt: 2026-10-31T06:58:52Z
 loc:
   Zig:
-    code: 274797
-    comments: 61712
-    blanks: 48351
+    code: 274853
+    comments: 61730
+    blanks: 48362
     files: 814
   CHeader:
     code: 44925
@@ -155,7 +155,7 @@ loc:
     blanks: 0
     files: 28
   Sh:
-    code: 591
+    code: 595
     comments: 283
     blanks: 124
     files: 9
@@ -175,7 +175,7 @@ loc:
     blanks: 124
     files: 1
   Yaml:
-    code: 318
+    code: 321
     comments: 24
     blanks: 24
     files: 4
@@ -245,9 +245,9 @@ loc:
     blanks: 948
     files: 244
 total:
-  code: 408672
-  comments: 108517
-  blanks: 67661
+  code: 408735
+  comments: 108535
+  blanks: 67672
   files: 1611
 ---
 
