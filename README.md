@@ -14,15 +14,15 @@ x install ghostty
 
 ## Code insight
 
-Total: **434,217** lines of code across **1140** files in the top 5 languages.
+Total: **436,040** lines of code across **1146** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Zig | 283,132 | 64,563 | 49,499 | 825 |
-| CHeader | 44,970 | 20,290 | 4,848 | 74 |
+| Zig | 284,225 | 64,845 | 49,703 | 829 |
+| CHeader | 44,974 | 18,849 | 4,934 | 74 |
 | Cpp | 32,614 | 6,925 | 4,331 | 10 |
 | Swift | 27,060 | 5,817 | 5,620 | 199 |
-| Json | 19,014 | 0 | 0 | 32 |
+| Json | 19,461 | 0 | 0 | 34 |
 
 ## Source
 
@@ -33,30 +33,30 @@ Total: **434,217** lines of code across **1140** files in the top 5 languages.
 ## Release
 
 - **Latest**: `tip`
-- **Last commit**: 2026-11-06
+- **Last commit**: 2026-11-07
 
 ## Popularity
 
-- **Stars**: 63,690 · **Forks**: 3,835 · **Open issues**: 2,288 · **Contributors**: 644
+- **Stars**: 63,767 · **Forks**: 3,843 · **Open issues**: 2,292 · **Contributors**: 645
 
 ## Totals (cumulative)
 
-- **Releases**: 1 · **Merged PRs**: 4989 · **Open PRs**: 124 · **Closed issues**: 2151 · **Open issues**: 137 · **Commits**: 18677
+- **Releases**: 1 · **Merged PRs**: 5004 · **Open PRs**: 123 · **Closed issues**: 2151 · **Open issues**: 141 · **Commits**: 18727
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 0 | 208 | 38 | 9 | 8 | 509 |
-| last60d | 2026-09-07 | 0 | 357 | 55 | 18 | 11 | 871 |
-| 90d | 2026-08-08 | 0 | 607 | 67 | 31 | 12 | 1605 |
-| last180d | 2026-05-10 | 0 | 953 | 81 | 99 | 19 | 2599 |
-| 360d | 2025-11-11 | 0 | 1966 | 120 | 354 | 53 | 5963 |
-| last720d | 2024-11-16 | 0 | 3539 | 124 | 1105 | 110 | 10683 |
+| 30d | 2026-10-08 | 0 | 214 | 37 | 9 | 12 | 561 |
+| last60d | 2026-09-08 | 0 | 370 | 55 | 18 | 15 | 923 |
+| 90d | 2026-08-09 | 0 | 614 | 67 | 29 | 16 | 1657 |
+| last180d | 2026-05-11 | 0 | 960 | 81 | 98 | 23 | 2651 |
+| 360d | 2025-11-12 | 0 | 1980 | 119 | 354 | 57 | 6015 |
+| last720d | 2024-11-17 | 0 | 3553 | 123 | 1101 | 114 | 10717 |
 
 ## Distribution status
 
-Reported by **145** distros on [repology.org](https://repology.org/project/ghostty). **23** are ✅ on the latest upstream release, **87** are ⚠️ on an older version.
+Reported by **154** distros on [repology.org](https://repology.org/project/ghostty). **31** are ✅ on the latest upstream release, **88** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -76,4 +76,4 @@ Install metadata for ghostty lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T08:20:13Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T07:20:41Z._
