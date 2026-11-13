@@ -37,26 +37,26 @@ Total: **437,426** lines of code across **1148** files in the top 5 languages.
 
 ## Popularity
 
-- **Stars**: 64,030 · **Forks**: 3,901 · **Open issues**: 2,297 · **Contributors**: 646
+- **Stars**: 64,064 · **Forks**: 3,911 · **Open issues**: 2,297 · **Contributors**: 646
 
 ## Totals (cumulative)
 
-- **Releases**: 1 · **Merged PRs**: 5040 · **Open PRs**: 124 · **Closed issues**: 2151 · **Open issues**: 146 · **Commits**: 18820
+- **Releases**: 1 · **Merged PRs**: 5041 · **Open PRs**: 125 · **Closed issues**: 2151 · **Open issues**: 146 · **Commits**: 18821
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-13 | 0 | 206 | 36 | 8 | 16 | 535 |
-| last60d | 2026-09-13 | 0 | 390 | 55 | 18 | 18 | 964 |
-| 90d | 2026-08-14 | 0 | 588 | 65 | 23 | 21 | 1472 |
-| last180d | 2026-05-16 | 0 | 982 | 82 | 94 | 28 | 2708 |
-| 360d | 2025-11-17 | 0 | 1996 | 120 | 351 | 62 | 5998 |
-| last720d | 2024-11-22 | 0 | 3568 | 124 | 1079 | 117 | 10758 |
+| 30d | 2026-10-14 | 0 | 200 | 35 | 8 | 16 | 537 |
+| last60d | 2026-09-14 | 0 | 386 | 57 | 18 | 18 | 966 |
+| 90d | 2026-08-15 | 0 | 576 | 67 | 23 | 21 | 1474 |
+| last180d | 2026-05-17 | 0 | 979 | 83 | 94 | 28 | 2710 |
+| 360d | 2025-11-18 | 0 | 1994 | 120 | 351 | 61 | 6000 |
+| last720d | 2024-11-23 | 0 | 3564 | 125 | 1070 | 117 | 10737 |
 
 ## Distribution status
 
-Reported by **159** distros on [repology.org](https://repology.org/project/ghostty). **37** are ✅ on the latest upstream release, **83** are ⚠️ on an older version.
+Reported by **161** distros on [repology.org](https://repology.org/project/ghostty). **39** are ✅ on the latest upstream release, **83** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -76,4 +76,4 @@ Install metadata for ghostty lives in the [x-cmd/install](https://github.com/x-c
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261112.yml` · 2026-11-12T09:15:24Z._
+_Snapshot: `data/card/261113.yml` · 2026-11-13T08:39:12Z._
